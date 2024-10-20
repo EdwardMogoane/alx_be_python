@@ -11,8 +11,9 @@ class Calculator:
         return a * b
 
 result_add = Calculator.add(5, 10)
-print(f"The sum is: {result_add}")
-
 result_multiply = Calculator.multiply(5, 10)
+
+print(f"The sum is: {result_add}")
 print(f"The product is: {result_multiply}")
+
 
