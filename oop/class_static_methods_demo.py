@@ -10,11 +10,9 @@ class Calculator:
         print(f"Calculation type: {cls.calculation_type}")
         return a * b
 
-print("Static Method Example:")
-result_add = Calculator.add(5, 3)
-print(f"5 + 3 = {result_add}")
+result_add = Calculator.add(5, 10)
+print(f"The sum is: {result_add}")
 
-print("\nClass Method Example:")
-result_multiply = Calculator.multiply(5, 3)
-print(f"5 * 3 = {result_multiply}")
+result_multiply = Calculator.multiply(5, 10)
+print(f"The product is: {result_multiply}")
 
